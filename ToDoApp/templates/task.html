@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<main class="container py-5">
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <h1 class="text-center">Tareas Pendientes</h1>
+
+                <ul class="list-group">
+                {% for task in tasks %}
+                    <li class="list-group-item">
+                        <a href="{% url 'detalle_tarea' task.id %}">
+                            <h2>{{ task.Titulo }}</h2>
+                            </a>
+                        <p>Creado el: {{ task.Fecha_creacion|date:'j M Y:i' }}</p>
+                        <p>{{task.Fecha_completado|date:'j M Y:i'}}</p>
+
+
+                    </li>
+                {% endfor %}
+                </ul>
+
+        </div>
+    </div>
+    </main>
+
+
+{% endblock %}
