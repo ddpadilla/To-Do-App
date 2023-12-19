@@ -393,3 +393,13 @@ Siempre en el main de HTML, creamos elementos nav para poder navegar a cada temp
 ```bash
 python manage.py runserver
 ```
+
+## Screenshots
+
+<img width="1440" alt="Captura de pantalla 2023-12-19 a la(s) 12 27 25 a  m" src="https://github.com/ddpadilla/To-Do-App/assets/111556958/d475831a-d39d-4e56-b0c3-d630dc58f05a">
+
+
+<img width="1440" alt="Captura de pantalla 2023-12-19 a la(s) 12 27 40 a  m" src="https://github.com/ddpadilla/To-Do-App/assets/111556958/cad4742d-1797-4fb5-94b6-b7a51846fc6b">
+
+
+<img width="1440" alt="Captura de pantalla 2023-12-19 a la(s) 12 28 32 a  m" src="https://github.com/ddpadilla/To-Do-App/assets/111556958/df9bf0ed-e455-47ea-b6df-ba32e0c4047d">
